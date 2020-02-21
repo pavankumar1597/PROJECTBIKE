@@ -1,0 +1,149 @@
+<!-----------------
+<!DOCTYPE>
+<html>
+<head>
+    
+    <title>
+    
+    </title>
+    
+    
+    <style>
+        
+        
+        
+        
+        
+        *{
+            margin:0;
+         padding:0;
+        }
+        #map{
+            height:500px;
+            width:50%;
+            
+            
+        }
+    
+    
+    </style>
+    
+    
+
+    
+    </head>
+<body>
+    
+   <div id="map"></div> 
+    
+    
+ 
+    <script>
+        
+        
+        function initMap(){
+            var location = {lat :13.063100,lng:77.535332};
+                        var location = {lat :13.006780,lng:77.648821};
+            var map = new google.maps.Map(document.getElementById("map"),{
+                zoom: 4 ,
+                center :location
+            });
+            var marker =new google.maps.Marker({
+                position:location,
+                map:map
+            });
+        }
+ 
+    
+    </script>
+    
+    
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeYj5EqCIJdKrriBdFzaBJ_49YMhUerhI&callback=initMap">
+    
+    </script>
+</body>
+
+</html>
+
+---------->
+
+
+
+
+<!DOCTYPE html>
+<html> 
+<head> 
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+  <title>Google Maps Multiple Markers</title> 
+  <script src="http://maps.google.com/maps/api/js?sensor=false" 
+          type="text/javascript"></script>
+</head> 
+<body>
+    
+   <h2> Find our garage loacatin here </h2>
+    
+    
+  <div id="map" style="transform: translate(90% ,45% );width: 500px; height: 400px; "></div>
+
+  <script type="text/javascript">
+    var locations = [
+      ['jalahalli-royalpair', 13.063100, 77.535332, 4],
+      ['vijaynagar-royalpair', 12.976750, 77.575280, 5],
+      ['biec-royalpair', 13.058790, 77.460806, 3],
+      ['sjbit-royalpair', 12.899407, 77.496153, 2],
+      ['Maroubra Beach', 12.990058, 77.552490, 1]
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 10,
+      center: new google.maps.LatLng(13.063100, 77.535332),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

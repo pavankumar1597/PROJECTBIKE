@@ -1,0 +1,729 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+html{
+    background-color: #fff;
+    color: rgb(201, 204, 217);
+font-family :'lato';
+font-weight: 300;
+font-size: 20px;
+text-rendering :optimizeLegibility}
+
+
+}
+
+
+
+
+.clearfix {zoom :1}
+.clearfix: after {
+    content: '.';
+    clear: both;
+    display:block;
+    height: 0;
+    visibility: hidden;
+    
+}
+
+
+
+<!-------------reuseablecomponents----------------------->
+.row{
+    max-width: 1140px;
+    margin:0 auto;
+}
+ 
+.section{
+    padding:80px 0;   
+}
+.box{
+    padding:1%;
+}
+
+
+/*css*/
+     /*-------------icons------------------*/
+     /*css*/
+
+
+
+.b11{
+    color: blue;
+    padding-right :20px
+}
+.b12{
+    color: #00baff;
+    padding-right :20px
+}
+.b13{
+    color: red;
+    padding-right :20px
+}
+.b14{
+    color: #ff0000;
+}
+.social-icons{
+    margin:13px 45px;
+    padding-left: 15%;
+ font-size:135%;
+    
+}
+
+
+
+.input-group1{
+  
+    position: absolute;
+    width:280px;
+    transition: .2s;
+ 
+     
+   
+    
+    
+}
+.input-group2{
+    top:168px;
+    position: absolute;
+    width:280px;
+    transition: .2s; 
+      
+     transform: translate(150% ,0%);
+ 
+    
+}
+
+.input-field{
+    width:100%;
+        padding:10px 1;
+        margin:4px 0;
+    border-top: 20px;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    color:aliceblue;
+}
+
+.submit-btn{
+    margin-left: 125px;
+    width:85%;
+    padding:10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background:linear-gradient(to right ,#ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+
+.check-box{
+    margin:30px 10px 30px 0px;
+}
+
+span{
+    color: #777;   
+}
+
+#login{
+    left: 50px;
+
+}
+#register{
+    right: 50px;
+}
+
+
+
+/*css*/
+     /*-------------header------------------*/
+     /*css*/
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/royal-enfield-cafe-racer-57.jpg);
+    background-position: center;
+ background-size: cover;
+    height: 100vh;
+     background-attachment: fixed;
+
+}
+
+.bullet-text-box:first-child{
+    position: absolute;
+    width: 63% ;
+    top :40% ;
+    left :15% ;
+    transform: translate(-20% ,-40%);
+  
+}
+
+.bullet-text-box:last-child{
+    float: right;
+    width:400px;
+    height:500px;
+    position:relative;
+    margin:1% 2%;
+    background-color: ;
+    padding: 5px;
+    overflow: hidden;
+    transform: translate(-4% ,25%);
+    
+}
+.button-box{
+    width:220px;
+    margin:40px auto;
+    position: relative;
+    box-shadow:0 0 10px 9px rgb(255, 167, 0); 
+    border-radius:30px;
+}
+.toggle-btn{
+    width:40%;
+    padding:10px 1px;
+    margin-left: 10.1px;
+    cursor :pointer;
+    background: transparent;
+    border:0;
+    outline: none;
+    position:relative;
+    font-size: 20px;
+    color: #fff;
+}
+
+#btn{
+    top:0;
+    left:0;
+    position: absolute;
+    width:110px;
+    height: 100%;
+     background:linear-gradient(to right ,#ff105f,#ffad06);
+    border-radius: 30px;
+    transition:.5s;
+    
+}
+
+.logo-black{ 
+    height: %;
+    width: auto;
+    float: left;
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 12%;
+    width: 75px;
+        
+}
+
+
+
+
+<!------------main-navi------------>
+
+
+
+
+
+ .main-nav{ float: right;
+     list-style: none;
+     margin-top: 555px;
+     
+     
+}
+
+
+.main-nav li 
+    { display: inline-block;
+    margin-left:0px;
+ 
+        
+       
+}
+
+
+
+
+
+.main-nav li a:link,
+.main-nav li a:visited
+{padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 85% ;
+    font-weight: 500;
+      border-bottom: 2px solid transparent; 
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{ 
+    border-bottom: 2px solid #ff7500;
+    }
+
+
+.sticky, .main-nav li a:link,
+.sticky, .main-nav li a:visited
+{padding: 8px 0;
+    color: #555 ;
+    
+    
+}
+<!-----------------------------------stickynav------->
+#navbar{
+   overflow: hidden;
+  background-color:white;
+}
+#navbar a {
+  float: left;
+  display: block;
+
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+
+
+.sticky{
+   z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 9%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: 20px;
+    box-shadow:  0 3px 22px #d8cccc;
+}
+
+
+
+
+
+.motorcycle{
+    font-size: 150%;
+    color: rgb(255, 167, 0)  ;
+}
+
+
+
+h1,h2,h3{
+    
+ font-weight: 400;
+ text-transform: uppercase;
+}
+
+h1{
+    margin-top: 0;
+margin-bottom: 20px;
+color:#fff;
+    font-size:250%; 
+    letter-spacing: 1px;
+        word-spacing: 4px;
+    
+}
+h2{  letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Loto' ,'Arial';
+    color: black;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    }
+
+h2:after{
+    display:block;
+    height: 2px;
+    content:" ";
+    background-color: #ff7500;
+    width: 100px;
+    margin:0px auto;
+    margin-top: 10px;
+}
+h3{margin-bottom:15px;
+    font-size: 110%;
+    font-family:'Arial';
+    color: #ff7500;
+    margin-left: 15%;
+    
+        
+}
+
+/*css*/
+     /*-------------paragraph----------*/
+     /*css*/
+
+.long-copy{
+ line-height: 145%;
+    width: 80%;
+    margin-left:10%;
+    margin-right: 10%;
+    
+    color: rgb(66, 70, 69);
+    font-size: 20px;
+    font-weight: 250;
+    text-align: justify;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+    
+}
+/*css*/
+     /*-------------paragraph------------------*/
+     /*css*/
+
+
+.box p{
+    
+    font-size: 90%;
+    line-height: 145%;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    
+    
+}
+
+
+ /*css*/
+     /*-------------button------------------*/
+     /*css*/
+
+.btn:link,
+.btn:visited,
+input[type=submit]{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 600px;
+    color: #fff;
+    transition: background-color .2s,border 0.2s,color 0.2s;
+    
+}
+
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: rgb(255, 167, 0) ;
+          color :#fff;
+     font-size: 20px;
+  margin-right: 15px;
+}
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1.5px solid rgb(255, 167, 0) ;
+    font-size: 20px;
+    font-weight: 300;
+        color :#fff;
+    /*css*/
+     /*css*/
+     /*-------------------------------------*/}
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active
+{
+    background-color: rgba(181, 170, 170, 0.7); 
+     color :#fff;
+}
+.btn-full:hover,
+.btn-full:active,
+input[type=submit]{
+;    border:1px solid rgb(255, 167, 0);
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    border:1 px solid rgb(255, 167, 0);
+   
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------*/
+
+.section-features{
+    padding:80px 0;   
+}
+.box{
+    
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: 19px;
+    
+}
+
+  
+
+
+
+.span-1-of-4{
+    margin-top: 20px;
+    color: black;
+}
+/*css*/
+     /*-------------features----------*/
+     /*css*/
+.section-feature .long-copy{
+    margin-bottom: 0px;
+}
+
+
+
+
+
+/*css*/
+     /*-------------icons----------*/
+     /*css*/
+
+
+.big-icon{
+    margin-left: 20%;
+    font-size:275%;
+    display: block;
+  color: forestgreen;
+    margin-bottom: 10px;
+
+}
+
+
+.b1{
+    color :#f50707;
+}
+
+/*css*/
+     /*------------image---------*/
+     /*css*/
+.section-meals{
+    margin-bottom: 506px;
+    background-color: rgb(234, 234, 234);
+     
+        
+}
+.meals-shocase{
+    list-style: none;
+    width: 100%;
+}
+.meals-shocase li{
+    display:block;
+    float:left;
+    width:25%;
+}
+.meal-photo{
+    width: 100%;
+    margin:0;
+    overflow: hidden;
+    background-color: black;
+}
+.meal-photo img{
+    opacity: .6;
+    width: 100%;
+    height:auto;
+    transform: scale(1.25);
+     transition: transform 0.5s ,opacity 0.5s;
+}
+
+.meal-photo img:hover{
+    transform: scale(1);
+    opacity: 1;
+   
+}
+
+/*css*/
+     /*------------howitworks----------*/
+     /*css*/
+.sections-steps {
+    padding-top: 80px;
+    padding-bottom:25px;
+    background-color: rgb(234, 234, 234);
+    
+}
+
+.steps-box:first-child{
+     margin-top: 30px;  
+    width: 40%;
+    text-align: right;
+    padding-right: 3%;
+}
+.steps-box:last-child{ margin-top: 70px;  
+    padding-left: 3%;
+     float: left;
+    width: 49%;
+    color: black;
+        
+    
+}
+.appscreen{
+    width: 40%;
+}
+
+.works-step{
+    margin-bottom: 50px;
+    height:10%
+}
+.works-step p{
+    margin-left: 20
+}
+.works-step div{
+    color: rgb(255, 167, 0);
+    border: 2px solid rgb(255, 167, 0);
+    display: inline-block;
+    border-radius: 50px;
+    height: 50px;
+   width: 50px; 
+    text-align: center;
+    padding: 5px;
+    font-size: 150%;
+    float: left;
+    margin-right: 25px;
+        
+}
+
+
+.btn-app img{
+    margin-top: 0px;
+height: 50px;
+    width :auto;
+    margin-right: 20px;
+}
+
+
+/*css*/
+     /*-----------testamonial----------*/
+     /*css*/
+
+.testomonial{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.88)),url(images/mobil.jpg);
+     background-position:center;
+    background-size:cover;
+color: #fff;
+    background-attachment: fixed;
+    
+}
+.testomonial h2{margin-top: 80px;
+    color: #fff;
+    margin-bottom: :25px;
+}
+
+blockquote{
+    padding=20%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    width: 70%;
+        text-align: center;
+ 
+}
+
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+blockquote:before{
+    content:"\201C";
+    font-size :400%;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left : 0;
+    
+}
+cite img{
+    height: 50px;
+    border-radius: 50%;
+margin-right: 10px;
+vertical-align: middle;
+}
+
+.boxing{
+    width:30%;
+    margin-top: 120px;
+margin-left: 3%; 
+    float: left;
+   
+    
+}
+
+<!---------contact-info------------------->
+section-form{
+   
+   
+}
+.contact-form{
+    color: orange;
+    font-family :sans-serif;
+    font-size: 110%;
+    
+    width: 50%;
+    margin-top:7%;
+    margin-left: 25%;
+    margin-bottom: 10%
+
+    
+}
+
+input[type=text],input[type=e-mail] ,select,textarea{
+     width :100%;
+    padding :7px;
+    border-radius:10px;
+    border: 1px solid #CCC ;
+}
+
+textarea{
+    height: 100px;
+}
+
+
+input[type=checkbox]
+{
+    margin :14px 5px 10px 0;
+}
+
+*:focus{
+    outline: none;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: #898989; /* Black w/ opacity */
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-content {
+  background-color: #e51414;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #fff;
+  width: 40%;
+}
