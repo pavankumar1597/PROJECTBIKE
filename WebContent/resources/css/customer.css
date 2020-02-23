@@ -1,0 +1,465 @@
+.logo{ 
+    height: 50%;
+    width: auto;
+    float: left;
+    border-radius: 100px;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 12%
+}
+
+
+
+
+
+
+
+
+
+header{
+    
+    background-position: center;
+ background-size: cover;
+    height: 25vh;
+     background-attachment: fixed;
+    background-color: rgb(255, 167, 0);
+
+}
+nav{padding-left: 20px;
+    padding-right:20px;
+    margin-top: 0px;
+    margin-left:  95px;
+     margin-right:  5px;
+       font-size: 14px ;
+}
+
+
+<!------------main-navi------------>
+
+ .main-nav{  display: inline-block;
+
+ }
+
+
+
+.main-nav li 
+    { display: inline-block;
+    margin-left:21px;
+    margin-top: 90px;
+     margin-right:20px;
+}
+.main-nav2 li 
+    { display: inline-block;
+    margin-left:2px;
+    margin-top: 10px;
+     margin-right:48px;
+        
+}
+.motorcycle{
+    margin-left: 9%;
+       color:rgb(255, 167, 0);
+    font-size: 130%;
+}
+
+.bullet-text-box{
+    position: relative ;
+    width:50%  ;
+    top :0% ;
+    left :21% ;
+    transform: translate(15% ,10%);
+  
+}
+
+.main-nav li a:link,
+.main-nav li a:visited
+{padding: 8px 0;
+    color:#fff ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 180% ;
+    font-weight: 500px;
+      border-bottom: 2px solid transparent; 
+    transition: border-bottom 0.2s;
+}
+
+
+
+
+
+.
+
+
+
+.main-nav li a:hover,
+.main-nav li a:active{ 
+    border-bottom: 2px solid #ff0000;
+    }
+
+
+
+
+
+.sections-steps {
+  
+    background-color: rgb(234, 234, 234);
+   height:100vh;
+    
+}
+h3{
+text-align: center;
+}
+
+
+
+.contact-form{
+    color: orange;
+    font-family :sans-serif;
+    font-size: 110%;
+    width: 60%;
+  
+    margin-left: 10%;
+    margin-bottom: 10%
+
+    
+}
+input[type=text],input[type=e-mail] ,select,textarea{
+    margin-left: 100px;
+     width :170%;
+    padding :10px;
+    border-radius:12px;
+    border: 1px solid #CCC ;
+    color:firebrick;
+}
+textarea{
+    height: 100px;
+}
+
+
+input[type=checkbox]
+{
+    margin :14px 5px 10px 0;
+}
+
+*:focus{
+    outline: none;
+}
+.steps-box:first-child{
+       
+    width: 40%;
+    text-align: right;
+    padding-right: 3%;
+}
+.steps-box:last-child{
+    margin-top: 0px;
+    
+      transform: translate(-7% ,1%);    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown{
+  cursor: pointer;
+  font-size: 16px;  
+border: 10px;
+ 
+  outline: none;
+  color: white;
+  padding: 10px 16px;
+  background-color:  rgb(255, 167, 0);
+  font-family: inherit;
+ 
+}
+
+
+
+.dropbtn2,.dropbtn3,.dropbtn{
+    
+     cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: 
+  font-family: ''Loto'    '
+  margin: 0;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+    
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+ background-color:rgb(255, 116, 0);
+    color: black;
+       transition: .9s;
+   
+}
+.fa{
+    color: red;
+    font-size: 100%;
+}
+.navbar a:hover, .dropdown:hover .dropbtn2, .dropbtn:focus {
+  background-color:rgb(255, 116, 0);
+    color: black;
+     transition: .9s;
+   
+}
+.navbar a:hover, .dropdown:hover .dropbtn3, .dropbtn:focus {
+  background-color:rgb(255, 116, 0);
+    color: black;
+     transition: .9s;
+   
+}
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+background-color: rgb(255, 167, 0) ;
+color :#fff;
+font-size: 20px;
+margin-right: 15px;
+display: inline-block;
+    padding: 10px 30px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 600px;
+    color: #fff;
+    transition: background-color .2s,border 0.2s,color 0.2s;
+    
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active
+{
+    background-color: #ff8103; 
+    border:1px solid rgb(255, 116, 0);
+     
+     color :#fff;
+}
+.btn-full:hover,
+.btn-full:active,
+input[type=submit]{
+border:1px solid rgb(255, 167, 0);
+     
+    
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(237, 233, 235, 0.83);
+    opacity: 0.95;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #000;
+  padding: 12px 16px;
+    text-align-last: left;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(135, 145, 178);
+    border-radius: 20%;
+    transition: .5s;
+}
+
+.show {
+  display:  block;
+;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.matchbox{
+     transform: translate(-9% ,-23%);
+    
+   
+    margin-left: 30%;
+  margin-top: 10%;
+    overflow: hidden;}
+
+
+* {box-sizing: border-box}
+body {font-family:LOTO;
+     margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width:100%
+  position: relative;
+  margin-left;20px; 
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 2px;
+  margin-top: -22px;
+  color: orange;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.logo-youtube{
+    color: aqua;
+}
+.b12{
+    color: #ff0000;
+    padding-right :20px;
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px,
+    }
+}
